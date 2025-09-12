@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaiSave - Stablecoin Savings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <img src="../logo.png" alt="KaiSave Logo" class="logo">
+      <h1>KaiSave</h1>
+      <p>Community-Powered Stablecoin Savings</p>
+    </header>
+    
+    <main>
+      <section class="vault">
+        <h2>💰 Savings Vault</h2>
+        <input type="number" id="depositAmount" placeholder="Enter amount in USDT">
+        <button onclick="deposit()">Deposit</button>
+        <input type="number" id="withdrawAmount" placeholder="Enter amount in USDT">
+        <button onclick="withdraw()">Withdraw</button>
+      </section>
+
+      <section class="circle">
+        <h2>🔄 KaiCircle</h2>
+        <button onclick="joinCircle()">Join Circle</button>
+        <button onclick="contribute()">Contribute</button>
+        <button onclick="payout()">Payout</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Powered by Kaia & USDT | Demo version</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
