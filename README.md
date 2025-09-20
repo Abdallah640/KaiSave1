@@ -1,44 +1,24 @@
 # KaiSave – Community-Powered Stablecoin Savings Platform
 
-![KaiSave Logo](./logo.png)
+KaiSave is a decentralized savings platform designed to empower individuals and communities to build wealth together.  
+We combine secure personal savings vaults with rotating community savings groups (tandas / ajo / esusu) on-chain, ensuring transparency, fairness, and inclusion.
 
-## 🚀 Vision
-In many parts of the world, especially in Africa and Asia, millions of people lack access to reliable savings and stable returns. Traditional banks offer very low interest rates, while crypto is often too volatile and complex. Informal rotating savings groups (*ajo, esusu, chit funds*) are popular but prone to fraud and lack transparency.
+## Vision
+Our vision is to bridge cultural financial practices with Web3 technology, delivering trustless, transparent, and fair savings tools that serve underserved communities globally.
 
-**KaiSave** bridges this gap by building on the **Kaia blockchain** with USDT:
+## Features
+- **KaiVault**: Lock funds into personal vaults for disciplined savings.  
+- **KaiCircle**: Pool funds and take turns receiving payouts, replicating traditional community savings systems.  
+- **Transparency & Security**: Powered by smart contracts, eliminating fraud and bias.  
+- **Inclusion**: Designed for underserved communities globally.  
 
-- **Stable Yield Vaults** – deposit USDT and earn safe passive income.
-- **KaiCircles (Rotating Savings)** – blockchain-powered community savings circles with fairness and transparency.
-- **Loyalty Rewards** – incentives for consistent savers.
-- **Cross-Border Remittances** – send USDT directly into savings instead of cash transfers.
+## Tech Stack
+- **Smart Contracts**: Solidity (Hardhat for development & testing)  
+- **Frontend**: React + TailwindCSS  
+- **Blockchain**: Hedera / EVM-compatible networks  
 
----
+## Contribution
+We welcome contributions! Please fork the repo, create a feature branch, and submit a pull request.
 
-## 🔧 Features
-- On-chain **stablecoin vaults** (Solidity smart contracts).
-- Automated **rotating group savings** with transparent payouts.
-- Simple, mobile-first interface for emerging markets.
-- Scalable for families, communities, and cooperatives.
-
----
-
-## 📦 Tech Stack
-- **Blockchain**: Kaia (EVM-compatible)
-- **Smart Contracts**: Solidity
-- **Frontend**: React / Next.js (planned)
-- **Backend**: Node.js (planned)
-
----
-
-## 📹 Demo (Coming Soon)
-We’ll publish a short video showing the KaiSave experience.
-
----
-
-## 🤝 Contribution
-We welcome contributors! Please fork this repo, make improvements, and open a PR.
-
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## License
+MIT License. See [LICENSE](LICENSE) for details.
